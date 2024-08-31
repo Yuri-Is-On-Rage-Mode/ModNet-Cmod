@@ -69,16 +69,16 @@ class A {
 ## Compiling Your Code 🔧
 
 ```ps
-PS G:\fri3nds\junk\modnet-lang\Samples\classes> modnet run virtual-specifier.cs
-[*] Running CmodCompiler with virtual-specifier.cs...
+PS G:\fri3nds\junk\modnet-lang\Samples\classes> modnet run helloworld.cs
+[*] Running CmodCompiler with helloworld.cs...
 [*] Output from CmodCompiler:
 C%: @compiler: Compiling your masterpiece...
 C%: @compiler: Compilation succeeded!
-C%: @compiler: Total time: 00:00:01.0297324 - Fast, right?
+C%: @compiler: Total time: 00:00:00.0097324 - Fast, right?
 
 @bye: That's all, folks! Exiting...
 
-[*] Output from virtual-specifier.exe:
+[*] Output from helloworld.exe:
 Derived::VirtualMethod
 
 PS G:\fri3nds\junk\modnet-lang\Samples\classes> 
@@ -101,16 +101,16 @@ public:
 ```
 **COMPILES TO**
 ```ps
-PS G:\fri3nds\junk\modnet-lang\Samples\classes> modnet run nested-declarations.cs
-[*] Running CmodCompiler with nested-declarations.cs...
+PS G:\fri3nds\junk\modnet-lang\Samples\classes> modnet run helloworld.cs
+[*] Running CmodCompiler with helloworld.cs...
 [*] Output from CmodCompiler:
 C%: @compiler: Compiling your masterpiece...
 C%: @compiler: Compilation succeeded!
-C%: @compiler: Total time: 00:00:00.3705615 - Fast, right?
+C%: @compiler: Total time: 00:00:00.0005615 - Fast, right?
 
 @bye: That's all, folks! Exiting...
 
-[*] Output from nested-declarations.exe:
+[*] Output from helloworld.exe:
 jUST IMPORTED C#'S CONSOLE LIB(.dll)!   
 
 PS G:\fri3nds\junk\modnet-lang\Samples\classes> 
